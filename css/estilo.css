@@ -1,0 +1,41 @@
+: root {
+	--fSize: 12;
+}
+* {
+	box-sizing: border-box;
+	font-size: var(--fSize)px;
+}
+.shell {
+	width:50%;
+	background-color: bisque;
+	padding: 3px;
+}
+
+.ipt,
+.ipt-w30p,
+.ipt-w50p,
+.ipt-color,
+.ipt-color-w30p,
+.ipt-color-w50p,
+.ipt-color-w70p,
+.lbl {
+	width:100%;
+	padding: 2px 5px;
+	font-size: var(--fSize)px;
+}
+
+.ipt-w30p { width: 30%; }
+.ipt-w50p { width: 50%; }
+.ipt-w70p { width: 70%; }
+
+.ipt-color,
+.ipt-color-w30p,
+.ipt-color-w50p,
+.ipt-color-w70p {
+	padding: 0;
+	border: 0;
+}
+
+.lbl-w30p { width: 30%; display: inline-block; text-align: right; padding-right: 5px; }
+.lbl-w50p { width: 50%; display: inline-block; text-align: right; padding-right: 5px; }
+.lbl-w70p { width: 70%; display: inline-block; text-align: right; padding-right: 5px; }
